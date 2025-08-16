@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://honeymarron.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://honeymarron.com/apps/awardcert</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://honeymarron.com/apps/voicycare</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://honeymarron.com/privacy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://honeymarron.com/terms</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://honeymarron.com/contact</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url>
+    <loc>https://honeymarron.com/</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://honeymarron.com/apps/awardcert</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://honeymarron.com/apps/voicycare</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://honeymarron.com/privacy</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://honeymarron.com/terms</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://honeymarron.com/contact</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
 
 
