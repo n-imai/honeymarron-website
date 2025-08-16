@@ -23,9 +23,6 @@
         { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
       ]
     }
-  ],
-  "routes": [
-    { "src": "/404", "status": 404 }
   ]
 }
 
