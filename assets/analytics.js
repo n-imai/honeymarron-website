@@ -1,6 +1,6 @@
 /* GA4 loader: Set your measurement ID below */
 (function () {
-  var MEASUREMENT_ID = 'G-XXXXXXXXXX';
+  var MEASUREMENT_ID = 'G-ES97LL8LEJ';
   if (!MEASUREMENT_ID || /X{2,}/.test(MEASUREMENT_ID)) {
     return;
   }
