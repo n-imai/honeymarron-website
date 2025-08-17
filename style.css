@@ -1,11 +1,11 @@
 :root {
-  --bg: #f5faff;
+  --bg: #f0fff9;
   --card: #ffffff;
   --text: #0f172a;
   --muted: #475569;
-  --primary: #3b82f6; /* fresh blue */
-  --primary-600: #2563eb;
-  --border: #e6eef8;
+  --primary: #2dd4bf; /* mint */
+  --primary-600: #14b8a6;
+  --border: #d9f5ee;
   --surface: #ffffff;
 }
 
@@ -14,7 +14,7 @@ html, body { height: 100%; }
 body {
   margin: 0;
   color: var(--text);
-  background: radial-gradient(1200px 800px at 10% -15%, #eaf2ff 0%, #f5faff 60%), linear-gradient(180deg, #f5faff, #ffffff 60%, #f5faff);
+  background: radial-gradient(1200px 800px at 10% -15%, #eafff6 0%, #f0fff9 60%), linear-gradient(180deg, #f0fff9, #ffffff 60%, #f0fff9);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif;
   line-height: 1.65;
 }
@@ -68,9 +68,9 @@ body {
   border-radius: 10px;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 6px 14px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 6px 14px rgba(45, 212, 191, 0.25);
 }
-.button:hover { background: var(--primary-600); box-shadow: 0 8px 18px rgba(37, 99, 235, 0.28); }
+.button:hover { background: var(--primary-600); box-shadow: 0 8px 18px rgba(20, 184, 166, 0.28); }
 .button-secondary { background: #fff; border-color: var(--border); color: var(--text); box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04); }
 .button-secondary:hover { border-color: var(--text); }
 
