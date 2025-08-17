@@ -26,29 +26,9 @@
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <script src="/assets/analytics.js" defer></script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "HoneyMarron",
-      "url": "https://honeymarron.com/",
-      "logo": "https://honeymarron.com/assets/ogp.jpg",
-      "sameAs": [
-        "https://awardcert.honeymarron.com/",
-        "https://voicy-care.honeymarron.com/",
-        "https://apps.apple.com/jp/app/id6748368413",
-        "https://apps.apple.com/jp/app/id6749561636"
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://honeymarron.com/",
-      "name": "HoneyMarron"
-    }
-    </script>
+    <script src="/assets/site.js" defer></script>
+    <script src="/assets/ld-org.json" type="application/ld+json"></script>
+    <script src="/assets/ld-website.json" type="application/ld+json"></script>
   </head>
   <body>
     <header class="site-header">
@@ -105,9 +85,7 @@
       </div>
     </footer>
 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+    
   </body>
   </html>
 
