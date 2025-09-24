@@ -39,10 +39,14 @@ jobs:
           const locRegex = /<loc>https?:\/\/honeymarron\.com([^<]*)<\/loc>\s*<lastmod>([^<]*)<\/lastmod>/g;
 
           sitemap = sitemap.replace(locRegex, (match, path, oldDate) => {
-            // HTMLファイルへの変更があった場合、対応するlastmodを更新
-            // 例: 'index.html' -> '/', 'en/index.html' -> '/en/'
-            const fileMatch = (f) => path.replace(/\/$/, '') === f.replace(/(\/index)?\.html$/, '');
-            if (files.some(fileMatch)) {
+            // path: URLパス (例: /, /en/, /apps/awardcert/)
+            // file: 変更されたファイルパス (例: index.html, en/index.html, apps/awardcert.html)
+            const fileMatchesPath = (file) => {
+              const filePathAsUrl = '/' + file.replace(/index\.html$/, '');
+              return filePathAsUrl === path || filePathAsUrl === path + '/';
+            };
+
+            if (files.some(fileMatchesPath)) {
               console.log(`Updating lastmod for ${path} to ${today}`);
               return match.replace(oldDate, today);
             }
