@@ -43,7 +43,7 @@
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!app-ads\\.txt|robots\\.txt|sitemap\\.xml$).*)",
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
@@ -53,5 +53,3 @@
     }
   ]
 }
-
-
