@@ -97,11 +97,22 @@ a:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .tagline {
-  display: none;
-  /* Hide tagline in header for cleaner look, or move it */
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-muted);
+  -webkit-text-fill-color: var(--text-muted);
+  /* Override gradient text fill */
+  margin: 0;
+  padding-left: 12px;
+  border-left: 1px solid var(--glass-border);
+  line-height: 1.2;
 }
 
 .lang a {
