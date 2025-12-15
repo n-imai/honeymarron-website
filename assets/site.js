@@ -27,6 +27,42 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // Intersection Observer for scroll animations
+  // Skip if user prefers reduced motion
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+        // Optionally unobserve after animation to improve performance
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  // Observe cards with stagger effect
+  const cards = document.querySelectorAll('.card');
+  cards.forEach((card, index) => {
+    card.style.setProperty('--animation-order', index);
+    observer.observe(card);
+  });
+
+  // Observe FAQ items
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach((item, index) => {
+    item.style.setProperty('--animation-order', index);
+    observer.observe(item);
+  });
 });
 
 
