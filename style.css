@@ -1163,3 +1163,107 @@ a:focus-visible,
 .page .actions {
   margin-top: 16px;
 }
+
+/* ====================================
+   APP DETAIL PAGES
+   ==================================== */
+
+/* App detail hero section */
+.app-detail-hero {
+  margin-bottom: 48px;
+}
+
+.app-detail-hero h1 {
+  margin-bottom: 16px;
+}
+
+.app-detail-hero .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  max-width: 800px;
+}
+
+.app-detail-hero .actions {
+  margin-top: 24px;
+}
+
+/* App features section */
+.app-features {
+  margin-bottom: 48px;
+}
+
+.app-features h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.app-features .feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.app-features .feature-list li {
+  padding-left: 28px;
+  position: relative;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.app-features .feature-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--pink-vivid);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* App screenshots section */
+.app-screenshots {
+  margin-bottom: 48px;
+}
+
+.app-screenshots h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: var(--text);
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 800px;
+}
+
+.screenshot-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s;
+}
+
+.screenshot-grid img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .app-detail-hero .lead {
+    font-size: 16px;
+  }
+
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
