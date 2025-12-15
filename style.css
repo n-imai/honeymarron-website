@@ -780,3 +780,8 @@ a:focus-visible,
 .skip-link:focus {
   top: 0;
 }
+
+/* 404 page actions spacing */
+.page .actions {
+  margin-top: 16px;
+}
