@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>HoneyMarron – Developer Site</title>
-  <meta name="description" content="Official developer website of HoneyMarron. Product info, support, and policies.">
+  <meta name="description" content="Official HoneyMarron website. Download free creative apps including Award Certificate Creator and VoicyCare. Product info, support, and privacy policy available.">
   <link rel="canonical" href="https://honeymarron.com/en/">
   <link rel="alternate" href="https://honeymarron.com/" hreflang="ja">
   <link rel="alternate" href="https://honeymarron.com/en/" hreflang="en">
@@ -16,7 +16,7 @@
   <meta property="og:site_name" content="HoneyMarron">
   <meta property="og:title" content="HoneyMarron – Developer Site">
   <meta property="og:description"
-    content="Official developer website of HoneyMarron. Product info, support, and policies.">
+    content="Official HoneyMarron website. Download free creative apps including Award Certificate Creator and VoicyCare. Product info, support, and privacy policy available.">
   <meta property="og:url" content="https://honeymarron.com/en/">
   <meta property="og:image" content="https://honeymarron.com/assets/ogp-en.png">
   <meta property="og:image:width" content="1200">
@@ -105,6 +105,46 @@
   ]
 }
   </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are the apps free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all apps are free to download and use. Some apps may offer optional paid features for additional functionality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What devices are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently available on iOS devices (iPhone, iPad). We're considering expanding to other platforms in the future."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my data privacy protected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, your privacy and data security are our top priorities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact us through our contact page or visit each app's official website. We'll respond as quickly as possible."
+      }
+    }
+  ]
+}
+  </script>
 </head>
 
 <body>
@@ -129,14 +169,27 @@
         designed to bring convenience and creativity to your daily life.</p>
       <p>You can find direct links to our products on the App Store, visit their dedicated official websites, and access
         important documents like our Privacy Policy and Terms of Service.</p>
+      <div class="hero-cta">
+        <a href="#apps" class="button">View Apps</a>
+        <a href="/en/contact/" class="button button-secondary">Contact Us</a>
+      </div>
     </section>
 
-    <section class="apps">
+    <section id="apps" class="apps">
       <h3>Apps</h3>
       <div class="app-grid">
         <article class="card" aria-labelledby="app-awardcert">
           <h4 id="app-awardcert">Award Certificate Creator</h4>
-          <p>Create and share award certificates easily on iPhone.</p>
+          <div class="card-badges">
+            <span class="badge badge-free">Free</span>
+            <span class="badge badge-category">Business</span>
+          </div>
+          <p>Create and share beautiful award certificates easily. Choose a template, enter text, and create professional-quality certificates in minutes.</p>
+          <ul class="card-features">
+            <li>Wide selection of templates</li>
+            <li>Fully customizable text</li>
+            <li>Save and share in high quality</li>
+          </ul>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6748368413?l=en" target="_blank"
               rel="noopener noreferrer" aria-label="Open Award Certificate Creator in App Store">App Store</a>
@@ -150,7 +203,16 @@
 
         <article class="card" aria-labelledby="app-voicycare">
           <h4 id="app-voicycare">VoicyCare</h4>
-          <p>A tool to support voice care in daily life.</p>
+          <div class="card-badges">
+            <span class="badge badge-free">Free</span>
+            <span class="badge badge-category">Health</span>
+          </div>
+          <p>Support your daily voice care routine. Track and manage your voice condition for voice training and health management.</p>
+          <ul class="card-features">
+            <li>Easy voice condition tracking</li>
+            <li>Visualize daily changes</li>
+            <li>Perfect for voice professionals</li>
+          </ul>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6749561636?l=en" target="_blank"
               rel="noopener noreferrer" aria-label="Open VoicyCare in App Store">App Store</a>
@@ -161,6 +223,28 @@
               aria-label="Overview page for VoicyCare">Overview</a>
           </div>
         </article>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h4 class="faq-question">Are the apps free?</h4>
+          <p class="faq-answer">Yes, all apps are free to download and use. Some apps may offer optional paid features for additional functionality.</p>
+        </div>
+        <div class="faq-item">
+          <h4 class="faq-question">What devices are supported?</h4>
+          <p class="faq-answer">Currently available on iOS devices (iPhone, iPad). We're considering expanding to other platforms in the future.</p>
+        </div>
+        <div class="faq-item">
+          <h4 class="faq-question">Is my data privacy protected?</h4>
+          <p class="faq-answer">Yes, your privacy and data security are our top priorities. Please see our <a href="/en/privacy/">Privacy Policy</a> for details.</p>
+        </div>
+        <div class="faq-item">
+          <h4 class="faq-question">How do I get support?</h4>
+          <p class="faq-answer">Contact us through our <a href="/en/contact/">contact page</a> or visit each app's official website. We'll respond as quickly as possible.</p>
+        </div>
       </div>
     </section>
 
