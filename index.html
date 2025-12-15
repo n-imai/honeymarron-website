@@ -25,7 +25,7 @@
   <meta property="og:image:alt" content="HoneyMarron Developer Site">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fef6fb">
   <meta name="google-site-verification" content="MOaVi5ysSPnajEByAI-fnfIP2G5aU125S5WWdL_mG_o">
   <link rel="stylesheet" href="/style.css">
@@ -108,7 +108,8 @@
 </head>
 
 <body>
-  <header class="site-header">
+  <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
+  <header class="site-header" role="banner">
     <div class="container">
       <h1 class="brand">
         <a href="/">HoneyMarron</a>
@@ -120,7 +121,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main id="main-content" class="container" role="main">
     <section class="hero">
       <h2>製品とサポートの公式窓口</h2>
       <p>HoneyMarron
@@ -168,7 +169,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="container">
       <p>&copy; <span id="year"></span> HoneyMarron ・ <a href="https://github.com/n-imai" target="_blank"
           rel="noopener noreferrer" aria-label="GitHub プロフィールを新しいタブで開く">GitHub</a></p>

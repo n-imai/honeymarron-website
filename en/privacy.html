@@ -18,10 +18,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <script src="/assets/site.js" defer></script>
     <script src="/assets/analytics.js" defer></script>
   </head>
   <body>
-    <header class="site-header">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="site-header" role="banner">
       <div class="container">
         <div class="brand"><a href="/en/">HoneyMarron</a></div>
         <p class="tagline">Privacy Policy</p>
@@ -31,7 +33,7 @@
       </div>
     </header>
 
-    <main class="container page">
+    <main id="main-content" class="container page" role="main">
       <nav class="breadcrumb" aria-label="breadcrumb">
         <a href="/en/">Home</a> / <span>Privacy Policy</span>
       </nav>
@@ -44,12 +46,11 @@
       <p class="note-text">A comprehensive policy will be prepared in due course.</p>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       <div class="container">
         <p>&copy; <span id="year"></span> HoneyMarron · <a href="https://github.com/n-imai" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile in a new tab">GitHub</a></p>
       </div>
     </footer>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
   </html>
 
