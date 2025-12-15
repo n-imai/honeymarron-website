@@ -774,11 +774,15 @@ a:focus-visible,
   z-index: 1000;
   border-radius: 0 0 4px 0;
   font-weight: 600;
-  transition: top 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .skip-link:focus {
   top: 0;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* 404 page actions spacing */
