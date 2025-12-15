@@ -18,9 +18,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HoneyMarron",
+      "url": "https://honeymarron.com/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "availableLanguage": ["Japanese", "English"],
+        "url": "https://honeymarron.com/contact/"
+      }
+    }
+    </script>
+    <script src="/assets/site.js" defer></script>
     <script src="/assets/analytics.js" defer></script>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
     <header class="site-header">
       <div class="container">
         <div class="brand"><a href="/">HoneyMarron</a></div>
@@ -31,13 +47,13 @@
       </div>
     </header>
 
-    <main class="container page">
+    <main id="main-content" class="container page">
       <nav class="breadcrumb" aria-label="breadcrumb">
         <a href="/">Home</a> / <span>お問い合わせ</span>
       </nav>
       <h1>お問い合わせ</h1>
       <p>製品に関するお問い合わせは、各製品の窓口をご利用ください。</p>
-      <ul class="link-list" style="margin-top:12px;">
+      <ul class="link-list">
         <li><a href="https://awardcert.honeymarron.com/contact" target="_blank" rel="noopener noreferrer">表彰状クリエイター お問い合わせ</a></li>
         <li><a href="https://voicy-care.honeymarron.com/contact" target="_blank" rel="noopener noreferrer">VoicyCare お問い合わせ</a></li>
       </ul>
@@ -48,7 +64,6 @@
         <p>&copy; <span id="year"></span> HoneyMarron ・ <a href="https://github.com/n-imai" target="_blank" rel="noopener noreferrer" aria-label="GitHub プロフィールを新しいタブで開く">GitHub</a></p>
       </div>
     </footer>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
   </html>
 

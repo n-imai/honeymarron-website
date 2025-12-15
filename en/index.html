@@ -26,7 +26,7 @@
   <meta property="og:image:alt" content="HoneyMarron Developer Site">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fef6fb">
   <link rel="stylesheet" href="/style.css">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -108,6 +108,7 @@
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="site-header">
     <div class="container">
       <h1 class="brand">
@@ -120,7 +121,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main id="main-content" class="container">
     <section class="hero">
       <h2>Official gateway for products and support</h2>
       <p>Welcome to the official developer site for HoneyMarron. This site serves as a central hub for all our
@@ -133,8 +134,8 @@
     <section class="apps">
       <h3>Apps</h3>
       <div class="app-grid">
-        <article class="card">
-          <h4>Award Certificate Creator</h4>
+        <article class="card" aria-labelledby="app-awardcert">
+          <h4 id="app-awardcert">Award Certificate Creator</h4>
           <p>Create and share award certificates easily on iPhone.</p>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6748368413?l=en" target="_blank"
@@ -147,8 +148,8 @@
           </div>
         </article>
 
-        <article class="card">
-          <h4>VoicyCare</h4>
+        <article class="card" aria-labelledby="app-voicycare">
+          <h4 id="app-voicycare">VoicyCare</h4>
           <p>A tool to support voice care in daily life.</p>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6749561636?l=en" target="_blank"

@@ -721,3 +721,67 @@ a:focus-visible,
   outline-offset: 4px;
   border-radius: 4px;
 }
+
+/* ====================================
+   PAGE & BREADCRUMB & POLICY PAGES
+   ==================================== */
+
+/* Page container */
+.page {
+  padding: 40px 0;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+  color: var(--pink-vivid);
+}
+
+.breadcrumb span {
+  color: var(--text);
+}
+
+/* Policy pages styling */
+.link-list {
+  margin-top: 12px;
+}
+
+.note-text {
+  margin-top: 12px;
+  color: var(--text-muted);
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--pink-vivid);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 1000;
+  border-radius: 0 0 4px 0;
+  font-weight: 600;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* 404 page actions spacing */
+.page .actions {
+  margin-top: 16px;
+}

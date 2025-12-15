@@ -18,30 +18,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <script src="/assets/site.js" defer></script>
     <script src="/assets/analytics.js" defer></script>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="site-header">
       <div class="container">
         <div class="brand"><a href="/en/">HoneyMarron</a></div>
         <p class="tagline">Privacy Policy</p>
         <nav class="lang" aria-label="Language">
-          <a href="/privacy" hreflang="ja" lang="ja">日本語</a>
+          <a href="/privacy/" hreflang="ja" lang="ja">日本語</a>
         </nav>
       </div>
     </header>
 
-    <main class="container page">
+    <main id="main-content" class="container page">
       <nav class="breadcrumb" aria-label="breadcrumb">
         <a href="/en/">Home</a> / <span>Privacy Policy</span>
       </nav>
       <h1>Privacy Policy</h1>
       <p>This site provides links to product-specific policies on each official site.</p>
-      <ul class="link-list" style="margin-top:12px;">
+      <ul class="link-list">
         <li><a href="https://awardcert.honeymarron.com/en/privacy" data-fallback-url="https://awardcert.honeymarron.com/privacy" target="_blank" rel="noopener noreferrer">Award Certificate Creator privacy policy</a></li>
         <li><a href="https://voicy-care.honeymarron.com/en/privacy" data-fallback-url="https://voicy-care.honeymarron.com/privacy" target="_blank" rel="noopener noreferrer">VoicyCare privacy policy</a></li>
       </ul>
-      <p style="margin-top:12px;color:var(--muted)">A comprehensive policy will be prepared in due course.</p>
+      <p class="note-text">A comprehensive policy will be prepared in due course.</p>
     </main>
 
     <footer class="site-footer">
@@ -49,7 +51,6 @@
         <p>&copy; <span id="year"></span> HoneyMarron · <a href="https://github.com/n-imai" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile in a new tab">GitHub</a></p>
       </div>
     </footer>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
   </html>
 

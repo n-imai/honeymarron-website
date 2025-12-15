@@ -25,7 +25,7 @@
   <meta property="og:image:alt" content="HoneyMarron Developer Site">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fef6fb">
   <meta name="google-site-verification" content="MOaVi5ysSPnajEByAI-fnfIP2G5aU125S5WWdL_mG_o">
   <link rel="stylesheet" href="/style.css">
@@ -108,6 +108,7 @@
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
   <header class="site-header">
     <div class="container">
       <h1 class="brand">
@@ -120,7 +121,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main id="main-content" class="container">
     <section class="hero">
       <h2>製品とサポートの公式窓口</h2>
       <p>HoneyMarron
@@ -131,8 +132,8 @@
     <section class="apps">
       <h3>アプリ一覧</h3>
       <div class="app-grid">
-        <article class="card">
-          <h4>表彰状クリエイター</h4>
+        <article class="card" aria-labelledby="app-awardcert">
+          <h4 id="app-awardcert">表彰状クリエイター</h4>
           <p>表彰状をかんたんに作って共有できる iPhone アプリ。</p>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6748368413" target="_blank"
@@ -143,8 +144,8 @@
           </div>
         </article>
 
-        <article class="card">
-          <h4>VoicyCare</h4>
+        <article class="card" aria-labelledby="app-voicycare">
+          <h4 id="app-voicycare">VoicyCare</h4>
           <p>声のケアをサポートするツール。</p>
           <div class="actions">
             <a class="button" href="https://apps.apple.com/jp/app/id6749561636" target="_blank"
