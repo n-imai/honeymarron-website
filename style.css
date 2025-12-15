@@ -877,6 +877,131 @@ a:hover {
 }
 
 /* ====================================
+   DARK MODE
+   ==================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark mode color palette */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-gradient-start: #1e1b2e;
+    --bg-gradient-end: #162447;
+
+    --text: #f1f5f9;
+    --text-muted: #cbd5e1;
+    --text-subtle: #94a3b8;
+
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(251, 113, 133, 0.3);
+    --glass-shine: rgba(255, 255, 255, 0.1);
+
+    /* Adjust shadows for dark mode */
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-card-hover: 0 16px 48px rgba(251, 113, 133, 0.3);
+  }
+
+  body {
+    background:
+      radial-gradient(ellipse at 20% 20%, rgba(251, 113, 133, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(56, 189, 248, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(196, 181, 253, 0.08) 0%, transparent 70%),
+      linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-secondary) 50%, var(--bg-gradient-end) 100%);
+  }
+
+  /* Dark mode adjustments for cards */
+  .card {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: rgba(251, 113, 133, 0.3);
+  }
+
+  .card:hover {
+    border-color: var(--pink-vivid);
+  }
+
+  /* Dark mode for badges */
+  .badge-free {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(16, 185, 129, 0.2));
+    color: #34d399;
+    border-color: rgba(16, 185, 129, 0.4);
+  }
+
+  .badge-category {
+    background: rgba(251, 113, 133, 0.15);
+    color: #fda4af;
+    border-color: rgba(251, 113, 133, 0.4);
+  }
+
+  /* Dark mode for buttons */
+  .button-secondary {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: rgba(251, 113, 133, 0.4);
+    color: var(--text);
+  }
+
+  .button-secondary:hover {
+    background: rgba(251, 113, 133, 0.2);
+    color: var(--pink-soft);
+  }
+
+  /* Dark mode for header */
+  .site-header {
+    background: rgba(30, 41, 59, 0.9);
+    border-bottom-color: rgba(251, 113, 133, 0.2);
+  }
+
+  .lang a {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: rgba(251, 113, 133, 0.4);
+    color: var(--text-muted);
+  }
+
+  .lang a:hover {
+    color: white;
+  }
+
+  /* Dark mode for FAQ */
+  .faq-item {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: rgba(251, 113, 133, 0.3);
+  }
+
+  .faq-item:hover {
+    border-color: var(--pink-vivid);
+  }
+
+  /* Dark mode for footer */
+  .site-footer {
+    background: rgba(30, 41, 59, 0.8);
+    border-top-color: rgba(251, 113, 133, 0.2);
+  }
+
+  /* Dark mode for card icon background */
+  .card-icon {
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  /* Dark mode for links */
+  .link-list a {
+    color: var(--text-muted);
+  }
+
+  .link-list a:hover {
+    color: var(--pink-soft);
+  }
+
+  /* Dark mode for FAQ answers with links */
+  .faq-answer a {
+    color: var(--pink-soft);
+  }
+
+  .faq-answer a:hover {
+    color: var(--pink-vivid);
+  }
+}
+
+/* ====================================
    ACCESSIBILITY
    ==================================== */
 
