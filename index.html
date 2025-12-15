@@ -38,9 +38,73 @@
   <link rel="mask-icon" href="/assets/favicon.svg" color="#2dd4bf">
   <script src="/assets/analytics.js" defer></script>
   <script src="/assets/site.js" defer></script>
-  <script src="/assets/ld-org.json" type="application/ld+json"></script>
-  <script src="/assets/ld-website.json" type="application/ld+json"></script>
-  <script src="/assets/ld-apps.json" type="application/ld+json"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "HoneyMarron",
+  "url": "https://honeymarron.com/",
+  "logo": "https://honeymarron.com/assets/ogp.jpg",
+  "sameAs": [
+    "https://awardcert.honeymarron.com/",
+    "https://voicy-care.honeymarron.com/",
+    "https://apps.apple.com/jp/app/id6748368413",
+    "https://apps.apple.com/jp/app/id6749561636"
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://honeymarron.com/",
+  "name": "HoneyMarron",
+  "alternateName": "HoneyMarron Developer Site"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "表彰状クリエイター",
+      "operatingSystem": "iOS",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      },
+      "url": "https://awardcert.honeymarron.com/",
+      "image": "https://honeymarron.com/assets/ogp.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "HoneyMarron",
+        "url": "https://honeymarron.com/"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "VoicyCare",
+      "operatingSystem": "iOS",
+      "applicationCategory": "HealthApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      },
+      "url": "https://voicy-care.honeymarron.com/",
+      "image": "https://honeymarron.com/assets/ogp.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "HoneyMarron",
+        "url": "https://honeymarron.com/"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 
 <body>
