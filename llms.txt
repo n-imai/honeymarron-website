@@ -1,0 +1,39 @@
+# HoneyMarron
+
+> HoneyMarron is an independent app developer creating free, creative iOS applications.
+
+## About
+
+HoneyMarron develops and publishes free iPhone apps focused on creativity and accessibility. Our apps are available on the App Store and are designed to be simple, useful, and beautiful.
+
+## Apps
+
+### Award Certificate Creator
+- Create beautiful award certificates on iPhone
+- 5 templates (gold, rainbow, floral, graduation, birthday)
+- Auto-save drafts and history management
+- Vertical and horizontal layout support
+- Multi-language support (Japanese/English)
+- High-quality PNG export
+- Free to use
+- App Store: https://apps.apple.com/app/id6748368413
+- Official Site: https://awardcert.honeymarron.com/
+
+### VoicyCare
+- Music player that boosts volume up to 200%
+- 5-band equalizer
+- Volume presets and AB repeat
+- Dropbox cloud integration
+- Large fonts and buttons for accessibility
+- Ideal for people with hearing difficulties
+- Free to use
+- App Store: https://apps.apple.com/app/id6749561636
+- Official Site: https://voicy-care.honeymarron.com/
+
+## Links
+
+- Website: https://honeymarron.com/
+- Privacy Policy: https://honeymarron.com/privacy/
+- Terms of Service: https://honeymarron.com/terms/
+- Contact: https://honeymarron.com/contact/
+- GitHub: https://github.com/n-imai
