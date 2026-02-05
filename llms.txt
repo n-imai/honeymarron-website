@@ -1,39 +1,33 @@
 # HoneyMarron
 
-> HoneyMarron is an independent app developer creating free, creative iOS applications.
+> HoneyMarronは日本の個人開発者で、創造性とアクセシビリティに焦点を当てた無料のiOSアプリを開発しています。すべてのアプリは日本語と英語に対応しています。 / HoneyMarron is an independent iOS app developer based in Japan, creating free apps focused on creativity and accessibility. All apps are available in Japanese and English.
 
-## About
+HoneyMarronはiPhone/iPad向けの無料アプリを開発・公開しています。主なプロダクトは、表彰状クリエイター（表彰状デザインツール）とVoicyCare（難聴の方向けの音量増幅音楽プレイヤー）です。開発者サイトは日本語と英語の両方で提供しています。
 
-HoneyMarron develops and publishes free iPhone apps focused on creativity and accessibility. Our apps are available on the App Store and are designed to be simple, useful, and beautiful.
+## アプリ / Apps
 
-## Apps
+- [表彰状クリエイター](https://honeymarron.com/apps/awardcert/): 美しい表彰状を簡単に作成できる無料iPhoneアプリ。5種類のテンプレート（金、虹、花柄、卒業証書、バースデー）から選んで文字を入力するだけ。高画質PNG出力、縦書き・横書き対応、下書き自動保存、BGMプレビュー機能付き。日本語・英語対応。
+- [VoicyCare](https://honeymarron.com/apps/voicycare/): イヤホン・ヘッドホンの音量を最大200%まで増幅できる無料音楽プレイヤーアプリ。5バンドイコライザー、音量プリセット、ABリピート、Dropbox連携機能搭載。大きな文字とボタンで操作しやすく、難聴の方や高齢者に最適。
 
-### Award Certificate Creator
-- Create beautiful award certificates on iPhone
-- 5 templates (gold, rainbow, floral, graduation, birthday)
-- Auto-save drafts and history management
-- Vertical and horizontal layout support
-- Multi-language support (Japanese/English)
-- High-quality PNG export
-- Free to use
-- App Store: https://apps.apple.com/app/id6748368413
-- Official Site: https://awardcert.honeymarron.com/
+## App Store
 
-### VoicyCare
-- Music player that boosts volume up to 200%
-- 5-band equalizer
-- Volume presets and AB repeat
-- Dropbox cloud integration
-- Large fonts and buttons for accessibility
-- Ideal for people with hearing difficulties
-- Free to use
-- App Store: https://apps.apple.com/app/id6749561636
-- Official Site: https://voicy-care.honeymarron.com/
+- [表彰状クリエイター - App Store](https://apps.apple.com/app/id6748368413): iOSアプリ
+- [VoicyCare - App Store](https://apps.apple.com/app/id6749561636): iOSアプリ
 
-## Links
+## 公式サイト / Official Product Sites
 
-- Website: https://honeymarron.com/
-- Privacy Policy: https://honeymarron.com/privacy/
-- Terms of Service: https://honeymarron.com/terms/
-- Contact: https://honeymarron.com/contact/
-- GitHub: https://github.com/n-imai
+- [表彰状クリエイター 公式サイト](https://awardcert.honeymarron.com/): 製品の詳細機能・サポート情報
+- [VoicyCare 公式サイト](https://voicy-care.honeymarron.com/): 製品の詳細機能・サポート情報
+
+## ポリシー・サポート / Policies and Support
+
+- [プライバシーポリシー](https://honeymarron.com/privacy/): 全アプリ共通のプライバシーポリシー
+- [利用規約](https://honeymarron.com/terms/): 全アプリ共通の利用規約
+- [お問い合わせ](https://honeymarron.com/contact/): サポート・お問い合わせフォーム
+
+## Optional
+
+- [English Homepage](https://honeymarron.com/en/): English version of the developer site
+- [Award Certificate Creator (English)](https://honeymarron.com/en/apps/awardcert/): English app overview page
+- [VoicyCare (English)](https://honeymarron.com/en/apps/voicycare/): English app overview page
+- [GitHub](https://github.com/n-imai): Developer GitHub profile
