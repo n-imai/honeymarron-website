@@ -4,8 +4,8 @@
   "description": "HoneyMarron Developer Site - Official hub for apps and support",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fef6fb",
-  "theme_color": "#fef6fb",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "lang": "ja",
   "dir": "ltr",
   "icons": [
